@@ -1,3 +1,4 @@
+{% extends 'base.html' %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,7 +16,7 @@
   <!-- Your custom styles (optional) -->
   <link href="css/style.min.css" rel="stylesheet">
 </head>
-
+{% block content %}
 <body class="grey lighten-3">
 
   <!-- Navbar -->
@@ -425,5 +426,5 @@
     new WOW().init();
   </script>
 </body>
-
+  {% endblock content %}
 </html>

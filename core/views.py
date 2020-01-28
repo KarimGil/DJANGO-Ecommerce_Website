@@ -12,3 +12,13 @@ def item_list(request):
     }
 
     return render(request, 'home-page.html', context)
+
+
+def product_page(request):
+
+    return render(request, 'product-page.html')
+
+
+def checkout_page(request):
+
+    return render(request, 'checkout-page.html')

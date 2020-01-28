@@ -1,3 +1,4 @@
+{% extends 'base.html' %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,6 +18,7 @@
 </head>
 
 <body>
+{% block content %}
 
   <!-- Navbar -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
@@ -286,6 +288,7 @@
     new WOW().init();
 
   </script>
+  {% endblock content %}
 </body>
 
 </html>
